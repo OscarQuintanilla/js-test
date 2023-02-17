@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #fff;
+}
+
+/* Your Styles */
+.main-title{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.spaced-underline{
+  border:solid;
+  width: 15%;
+}
+
+#product-form{
+  background-color: #EEE;
+  padding: 5em;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 5px 5px 5px #AAA;
+  width: 40%;
+}
+
+.form-group{
+  text-align: right;
+  align-items: end;
+  margin: 1em;
+}
+
+.form-group > input {
+  margin-left: 3em;
+  padding: 1em;
+  width: 80%;
+}
+
+#products-table{
+  margin: auto;
+  margin-top: 3em;
+}
